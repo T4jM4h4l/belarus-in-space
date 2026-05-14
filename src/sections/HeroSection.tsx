@@ -22,7 +22,7 @@ export function HeroSection({ inPresentation = false }: { inPresentation?: boole
       <div className="absolute inset-0 z-0">
         <img
           key="image"
-          src="/earth-space.jpg"
+          src="/belarus-in-space/earth-space.jpg"
           alt=""
           className="w-full h-full object-cover"
         />

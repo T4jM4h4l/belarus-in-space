@@ -36,7 +36,7 @@ export function SummarySection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/iss.jpg"
+          src="/belarus-in-space/iss.jpg"
           alt="International Space Station"
           className="w-full h-full object-cover opacity-15"
         />

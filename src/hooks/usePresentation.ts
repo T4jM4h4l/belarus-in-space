@@ -1,11 +1,11 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 
 export const presentationSlides = [
-  { id: 'hero', audio: '/intro.mp3', label: 'Вступление' },
-  { id: 'cosmonauts', audio: '/cosmonauts.mp3', label: 'Космонавты' },
-  { id: 'scientists', audio: '/scientists.mp3', label: 'Учёные' },
-  { id: 'heroes', audio: '/heroes.mp3', label: 'Невидимый фронт' },
-  { id: 'summary', audio: '/summary.mp3', label: 'Итоги' },
+  { id: 'hero', audio: '/belarus-in-space/intro.mp3', label: 'Вступление' },
+  { id: 'cosmonauts', audio: '/belarus-in-space/cosmonauts.mp3', label: 'Космонавты' },
+  { id: 'scientists', audio: '/belarus-in-space/scientists.mp3', label: 'Учёные' },
+  { id: 'heroes', audio: '/belarus-in-space/heroes.mp3', label: 'Невидимый фронт' },
+  { id: 'summary', audio: '/belarus-in-space/summary.mp3', label: 'Итоги' },
 ];
 
 export function usePresentation() {

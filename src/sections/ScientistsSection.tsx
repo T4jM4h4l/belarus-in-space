@@ -39,7 +39,7 @@ export function ScientistsSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/soyuz.jpg"
+          src="/belarus-in-space/soyuz.jpg"
           alt="Spacecraft"
           className="w-full h-full object-cover opacity-20"
         />
